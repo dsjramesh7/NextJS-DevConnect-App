@@ -8,7 +8,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const AllMenus = ["Home", "Explore", "Login", "SignUp"];
-  console.log(isOpenMenu);
   return (
     <nav className="bg-red-300 shadow-lg">
       <div className="container flex justify-between mx-auto px-4 py-2 items-center">
